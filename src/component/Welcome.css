@@ -1,0 +1,103 @@
+.welcome{
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    height: 70.9vh;
+
+
+    
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+.hallo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: teal;
+    margin-top: 40px;
+}
+
+.nama{
+    font-size: 30px;
+    font-weight: 700;
+    color: teal;
+    margin-bottom: 30px;
+}
+
+.position{
+    font-size: 18px;
+    font-weight: 400;
+    color: teal;
+
+}
+.hr-welcome{
+    /* color: teal; */
+    background-color: teal;
+    border: 1px solid teal;
+    width: 45vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.desc-welcome{
+    width: 56vw;
+    margin: auto;
+    color: teal;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.number{
+    color: teal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.email{
+    color: teal;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.btn-outline{
+    border: 3px solid teal;
+    color: teal;
+}
+
+@media screen and (max-width: 966px) {
+    .welcome{
+        /* width: 100px; */
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hallo{
+        font-size: 18px;
+    }
+
+    .nama{
+        font-size: 24px;
+    }
+
+    .position{
+        font-size: 16px;
+    }
+
+    .desc-welcome{
+        font-size: 12px;
+    }
+
+    .number{
+        font-size: 14px;
+    }
+    
+    .email{
+        font-size: 14px;
+    }
+}

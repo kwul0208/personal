@@ -1,0 +1,252 @@
+
+
+@media screen and (min-width: 560px) {
+    .profile{
+        height: 76vh;
+        overflow: auto;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        
+    }
+    
+    
+    
+    .scrollbar::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+    }
+    
+    .scrollbar::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb
+    {
+        background-color: teal;
+        
+        background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                           color-stop(.5, rgba(255, 255, 255, .2)),
+                           color-stop(.5, transparent), to(transparent));
+    }
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.title-page{
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: teal;
+}
+
+.title_bold{
+    font-weight: 700;
+}
+
+.hr_title_page{
+    color: teal;
+    border-bottom: 2px solid teal;
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.text-name{
+    color: teal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.text-ahmad{
+    color: teal;
+}
+
+.col-edu{
+    border-right: 2px solid teal;
+}
+
+.edu{
+    width: 90%;
+    background-color: #999;
+}
+.desc{
+    width: 20vw;
+}
+
+.toga{
+    color: teal;
+    margin-right: -78.6px;
+    font-size: 45px;
+}
+.fa-graduation-cap{
+    top: -6px !important;
+    left: -50px;
+    position: relative;
+    font-size: 26px;
+    color: #fff;
+}
+
+.t1{
+    margin-top: 20px !important;
+}
+
+.s1{
+    margin-top: 75px;
+}
+
+.t2{
+    margin-top: 82px !important;
+}
+
+.t3{
+    margin-top: 38px !important;
+}
+
+.desc-sc{
+    color: teal;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.dot{
+    color: teal;
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.s-uji{
+    margin-left: -101.1px;
+}
+
+/* hobby */
+.card-hobby{
+    background-color: rgb(231, 228, 228);
+    /* height: 200px; */
+    padding-top: 1px;
+}
+
+.title-hb{
+    margin-top: 50px;
+}
+
+.ul-hobby{
+    width: 96%;
+    margin-top: 60px !important;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.li-hobby{
+    list-style: none;
+    text-align: center;
+}
+
+.icon-hobby{
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1026px) {
+    .t1{
+        margin-top: 24px !important;
+    }
+    
+    .s1{
+        margin-top: 75px;
+    }
+    
+    .t2{
+        margin-top: 99px !important;
+    }
+    
+    .t3{
+        margin-top: 60px !important;
+    }
+}
+
+@media screen and (max-width: 966px) {
+
+
+    .text-name, .text-ahmad{
+        font-size: 14px;
+    }
+
+    .ul-hobby{
+        width: 100%;
+        margin-top: 60px !important;
+        margin-left: -20px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .t1{
+        margin-top: 24px !important;
+
+        font-size: 13px;
+    }
+
+    .s1{
+        margin-top: 75px;
+    }
+
+    .t3{
+        font-size: 13px;
+    margin-top: 78px !important;
+
+
+    }
+
+    .t2{
+        font-size: 13px;
+    margin-top: 162px !important;
+
+
+    }
+
+    .t1{
+        margin-top: 24px !important;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .t1{
+        margin-top: 24px !important;
+
+        font-size: 13px;
+    }
+
+    .s1{
+        margin-top: 75px;
+    }
+
+    .t3{
+        font-size: 13px;
+    margin-top: 78px !important;
+
+
+    }
+
+    .t2{
+        font-size: 13px;
+    margin-top: 182px !important;
+
+
+    }
+
+    .t1{
+        margin-top: 24px !important;
+    }
+}
+
